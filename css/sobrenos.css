@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.titulo {
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.boxsobrenos {
+    border: solid 2px rgb(170, 208, 235);
+    border-right: 0px;
+    border-bottom: 0px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.subtitulo {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.texto {
+    text-align: justify;
+}
+
+.boxsobrenosoutdoor {
+    border: solid 2px rgb(170, 208, 235);
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+.outdoortitulo{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.textoo{
+    border: solid 2px rgb(170, 208, 235);
+    border-top: 0px;
+    border-bottom: 0px;
+    text-align: justify;
+    font-size: large;
+}
+.dark-mode{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .nav-mobile {
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container{
+    background-color: #0c0c0c;
+}
+.dark-mode .navigation .nav-container .brand{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container nav{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list li{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list li .nav-dropdown{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .section .bg-footer{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .nav-list a{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+

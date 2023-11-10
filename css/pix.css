@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+.navigation {
+  font-size: 15px;
+  text-transform: normal;
+}
+.dark-mode {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode #corpo {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode #caixameio {
+  box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.349);
+}
+.dark-mode #carouselExampleFade {
+  box-shadow: 10px 10px 40px rgba(255, 255, 255, 0.881);
+}
+.dark-mode .nav-mobile {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .navigation {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .navigation .nav-container {
+  background-color: #0c0c0c;
+}
+.dark-mode .navigation .nav-container .brand {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .navigation .nav-container nav {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list li {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list li .nav-dropdown {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .section .bg-footer {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .nav-list a {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+.dark-mode .batata form {
+  background-color: #222;
+  box-shadow: 0 10px 15px rgba(241, 241, 241, 0.265);
+}
+.dark-mode .batata {
+  color: white;
+}
+.dark-mode .batata .preco {
+  color: whitesmoke;
+}
+.dark-mode .batata .juros {
+  color: rgb(206, 201, 201);
+}
+.dark-mode .batata form .inputbox span {
+  color: #ece4e4cc;
+}
+.dark-mode .batata .card-container .fron {
+  box-shadow: 0 15px 25px rgba(255, 255, 255, 0.212);
+}
+.dark-mode .batata form .inputbox input {
+  background-color: #0c0c0c;
+  color: whitesmoke;
+}
+.dark-mode .batata form .inputbox select {
+  background-color: #0c0c0c;
+}
+.batata {
+  min-height: 130vh;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding-bottom: 60px;
+  border-radius: 15px;
+}
+.batata form {
+  background: #fffbff;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+  padding-top: 160px;
+  height: 450px;
+}
+.batata form p {
+  padding: 0% !important;
+}
+.preco {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: black;
+  font-size: large;
+  margin-top: 10px;
+}
+.juros {
+  color: #999;
+  font-size: x-small;
+  margin-top: -21px;
+  margin-left: 3px;
+}
+
+.batata form .inputbox span {
+  display: block;
+  color: #999;
+  padding-bottom: 5px;
+}
+.batata form .inputbox input,
+.batata form .inputbox select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #444;
+}
+.batata form .flexbox {
+  display: flex;
+  gap: 15px;
+}
+.batata form .flexbox .inputbox {
+  flex: 1 1 150px;
+}
+.batata form .submit-btn {
+  width: 100%;
+  background: linear-gradient(45deg, LightSkyBlue, LightSteelBlue);
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s linear;
+  border-radius: 5px;
+}
+.batata form .submit-btn:hover {
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+.batata .card-container {
+  margin-bottom: -160px;
+  position: relative;
+  height: 100px;
+  width: 200px;
+}
+.batata .card-container .fron {
+  margin-top: -200px;
+  height: 230px;
+  width: 280px;
+  margin-left: -30px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, LightSkyBlue, LightSteelBlue);
+  border-radius: 5px;
+  backface-visibility: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transform: perspective(1000px) rotateY(0deg);
+
+  transition: transform 0.4s ease-out;
+}
+.batata .card-container .fron .img {
+}
+.batata .card-container .fron .img img {
+  height: 160px;
+
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.batata .card-container .fron .card-number-box {
+  padding: 30px 0px;
+  font-size: 22px;
+  color: #fff;
+}
+.batata .card-container .fron .flexbox {
+  display: flex;
+}
+.batata .card-container .fron .flexbox .box:nth-child(1) {
+  margin-right: auto;
+}
+.batata .card-container .fron .flexbox {
+  font-size: 15px;
+  color: #fff;
+}
+.batata .card-container .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, LightSkyBlue, LightSteelBlue);
+  border-radius: 5px;
+  padding: 20px 0;
+  text-align: right;
+  backface-visibility: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  transform: perspective(1000px) rotateY(180deg);
+  transition: transform 0.4s ease-out;
+}
+.batata .card-container .back .stripe {
+  background: #000;
+  width: 100%;
+  margin: 10px 0;
+  height: 50px;
+}
+.batata .card-container .back .box {
+  padding: 0 20px;
+}
+.batata .card-container .back .box span {
+  color: #fff;
+  font-size: 15px;
+}
+.batata .card-container .back .box .cvv-box {
+  height: 50px;
+  padding: 10px;
+  margin-top: 5px;
+  color: #333;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+.batata .card-container .back .box img {
+  margin-top: 30px;
+  height: 30px;
+}
+.titulo {
+  text-align: center;
+}
+.textopix {
+  font-size: small;
+}
+.random-text {
+  margin-left: 130px;
+}
+.balalaika {
+  background-color: #807e7e;
+  border-color: #000;
+  display: flex;
+  border-radius: 25px;
+  margin-top: 25px;
+  width: 30%;
+}
+.botaocopia {
+  border-radius: 5px;
+  margin-left: 123px;
+  background-color: #807e7e;
+}
+.textocodigo {
+  margin-left: 123px;
+  margin-top: 5%;
+}
+
+@media (max-width: 550px) {
+  .balalaika{
+    width: 10%;
+  }
+  .batata{
+    margin-top: 150px;
+    width: 400px;
+  }
+  
+
+}
+@media (max-width: 430px){
+  .batata form{
+    width: 250px;
+
+  }
+  .batata .card-container .fron{
+    width: 200px;
+    margin-left: 2px;
+  }
+  .batata .card-container .fron .img img{
+    width: 90%;
+    margin-left: 10px
+    ;
+  }
+ .meio{
+  display: none;
+ }
+ .batata{
+  margin-left: 0;
+ }
+ .batata h3{
+  font-size: medium;
+ }
+ .textocodigo{
+  margin-left: 0
+  ;
+ }
+ .batata .card-container{
+height: 40px;
+ }
+.balalaika{
+height: 25px;
+ }
+ .random-text{
+  font-size: small;
+  display: flex;
+  margin-left: 25px;
+
+ }
+ .botaocopia{
+  margin-left: 40px;
+  padding: 0;
+ 
+ }
+ .botaocopia img{
+  width: 20px;
+  margin-top: 0;
+  margin-left: 5px  ;
+  margin: 0;
+ }
+ .divinumero{
+  display: none;
+ }
+}

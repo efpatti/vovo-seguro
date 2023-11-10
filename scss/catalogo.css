@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+.dark-mode {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode .nav-mobile {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode .navigation {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode .navigation .nav-container {
+  background-color: #0c0c0c;
+}
+
+.dark-mode .navigation .nav-container .brand {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode .navigation .nav-container nav {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode .navigation .nav-container .nav-list {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode .navigation .nav-container .nav-list li {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode .navigation .nav-container .nav-list li .nav-dropdown {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode #rod {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.dark-mode .nav-list a {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
+
+.videoVovo {
+  margin-top: 200px;
+  height: 100vh;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.cardProd {
+  position: relative;
+  margin-top: 50px;
+  background-color: rgba(140, 178, 224, 0.814);
+  height: 290px;
+  border-radius: 20px;
+}
+
+.cardS {
+  border-radius: 5px;
+  margin: 10px 10px;
+  background-color: #ffffff;
+  height: 270px;
+}
+
+.textNome {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.imgCard {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.imgCard img {
+  border-radius: 50px;
+  background-color: rgba(140, 178, 224, 0.814);
+  width: 100px;
+  height: 100px;
+}
+
+.saibaMais {
+  font-size: 20px;
+}
+
+.btnSaibaMais {
+  border: none;
+  background-color: rgba(140, 178, 224, 0.814);
+  color: #fffbff;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+}
+
+.btnSaibaMais:hover {
+  opacity: 70%;
+}
+
+.cardRow {
+  flex-wrap: wrap;
+}
+
+.textNome,
+.textDesc,
+.btnSaibaMais {
+  font-family: sans-serif;
+}
+
+.nome,
+.desc,
+.saibaMais,
+.imgCard {
+  flex-wrap: nowrap;
+  margin-right: -0.7em;
+  margin-left: -0.7em;
+}
+
+.nome {
+  margin-top: 10px;
+}/*# sourceMappingURL=catalogo.css.map */

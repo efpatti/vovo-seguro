@@ -1,0 +1,103 @@
+body{
+    height: 100vh;
+   
+}
+.bordaLogin{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.box{
+    background: linear-gradient(45deg, LightSkyBlue, LightSteelBlue);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 500px;
+    border-radius: 20px ;
+    border: none;
+    box-shadow: 0 15px 25px 20px rgba(0, 0, 0, .2);
+
+}
+@media(max-width:1050px) {
+    #login{
+        padding: 0 30px;
+    }
+}
+.login{
+    text-align: center;
+}
+.frase{
+    font-weight: bold;
+    color: #3d3d3d;
+}
+.cad{
+    color: #ffffff;
+    text-decoration: none;
+}
+.dark-mode input:focus{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode input{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .nav-mobile {
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container{
+    background-color: #0c0c0c;
+}
+.dark-mode .navigation .nav-container .brand{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container nav{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list li{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .navigation .nav-container .nav-list li .nav-dropdown{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .section .bg-footer{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .nav-list a{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .login{
+    color: #fffbff;
+}
+.dark-mode .frase{
+    color: #fffbff;
+}
+.dark-mode .frase a{
+    color: #0c0c0c;
+}
+.dark-mode input{
+    background-color: #0c0c0c;
+    color: #fff;
+}
+.dark-mode .box{
+    box-shadow: 0 15px 25px 20px rgba(255, 255, 255, 0.2);
+}

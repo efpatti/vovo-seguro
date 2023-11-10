@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+
+.tude{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+.w50{
+   width: 50%;
+   float: left;
+   padding-right: 15px;
+}
+.box{
+    display: flex;
+    width: 938px;
+}
+.img-box{
+    background-color: rgba( 255, 255, 255, 0.5);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+    background-color: #aad0e8 ;
+}
+.img-box img{
+    width: 100%;
+    
+}
+.form-box{
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(240, 245, 249);
+   
+}
+.form-box h2{
+    font-size: 30px;
+}
+.form-box p{
+    font-weight: bold;
+    color: #3d3d3d;
+} 
+.form-box p a{
+    color: #bdacff;
+    text-decoration: none;
+}
+.form-box form{
+    margin: 20px 0;
+}
+form .input-group{
+    margin-bottom: 15px;
+}
+form .input-group label{
+    color: #3d3d3d;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+form .input-group input{
+    width: 100%;
+    height: 47px;
+    background-color: rgba( 255, 255, 255, 0.32);
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+}
+form .input-group input:focus{
+    background-color: #aad0e8 ;
+}
+form .input-group button{
+    width: 100%;
+    height: 47px;
+    background-color: rgb(152, 179, 230);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+@media (max-width:930px) {
+    .img-box{
+        display: none;
+    }
+    .box{
+        width: 700px;
+    }
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+@media (max-width:500px) {
+    .w50{
+        width: 100%;
+        padding: 0;
+    }
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(15, 15, 15, 0.2);
+    color: #fffbff;
+    background-color: #aad0e8 ;
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #aad0e8 ;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.0) scaleY(1.6);
+    background-color: #0c0c0c;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+.dark-mode .btn:hover::after{
+    background-color: #fffbff;
+}
+.dark-mode .btn:hover{
+    color: #0c0c0c;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.dark-mode{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .form-box{
+    background-color: #0c0c0c;
+    color: #fffbff;
+}
+.dark-mode .input-group label{
+    color: #fffbff;
+}
+.dark-mode .input-group input{
+    color: #fff;
+}
+.dark-mode .form-box p{
+    color: #fffbff;
+}
