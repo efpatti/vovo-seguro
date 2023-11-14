@@ -68,6 +68,7 @@ video {
 }
 
 .cardProd {
+  overflow: hidden;
   position: relative;
   margin-top: 50px;
   background-color: rgba(140, 178, 224, 0.814);
@@ -138,4 +139,39 @@ video {
 
 .nome {
   margin-top: 10px;
+}
+
+.sizeArrows {
+  width: 120px;
+  height: 80px;
+}
+
+.btnSlider {
+  border: 0px transparent;
+  border-radius: 10px;
+  background-color: #333;
+  color: #f2f2f2;
+  font-size: 20px;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 1.4em;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.143);
+}
+
+.controls :hover {
+  opacity: 50%;
+}
+
+#left-arrow {
+  left: 15px;
+}
+
+#right-arrow {
+  right: 15px;
 }/*# sourceMappingURL=catalogo.css.map */
