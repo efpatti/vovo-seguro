@@ -118,17 +118,6 @@ video {
 .nome {
   margin-top: 10px;
 }
-.sizeArrows {
-  width: 120px;
-  height: 80px;
-}
-.btnSlider {
-  border: 0px transparent;
-  border-radius: 10px;
-  background-color: #333;
-  color: #f2f2f2;
-  font-size: 20px;
-}
 .controls {
   position: absolute;
   top: 50%;
@@ -137,6 +126,7 @@ video {
   font-size: 1.4em;
   border-radius: 10px;
   background-color: rgba(140, 178, 224, 0.814);
+  cursor: pointer;
 }
 
 .controls :hover {
