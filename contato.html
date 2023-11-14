@@ -63,7 +63,7 @@
             <div class="input-row">
               <div class="input-group">
                 <label for="name">Nome</label>
-                <input type="text" placeholder="Henrique barros" name="name">
+                <input id="nome" type="text" placeholder="Henrique barros" name="name" >
               </div>
               <div class="input-group">
                 <label for="telefone">Telefone</label>
@@ -73,7 +73,7 @@
             <div class="input-row">
               <div class="input-group">
                 <label for="e-mail">E-mail</label>
-                <input type="email" placeholder="exemplo@email.com" name="email">
+                <input type="email" placeholder="exemplo@email.com" name="email" id="email">
               </div>
               <div class="input-group">
                 <label for="cpf">CPF</label>
@@ -81,8 +81,8 @@
               </div>
             </div>
             <label>Mensagem</label>
-            <textarea placeholder="Sua Mensagem" rows="5"></textarea>
-            <input type="submit" id="botCont">
+            <textarea placeholder="Sua Mensagem" rows="5" id="mensagem"></textarea>
+            <input type="submit" id="botCont" onclick="pegaDados()">
           </form>
         </div>
         <div class="contact-right">
