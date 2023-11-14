@@ -107,7 +107,7 @@ video {
 .btnSaibaMais {
   border: none;
   background-color: rgba(140, 178, 224, 0.814);
-  color: #fffbff;
+  color: #f2f2f2;
   border-radius: 5px;
   font-size: 15px;
   width: 100px;
@@ -161,7 +161,7 @@ video {
   border: none;
   font-size: 1.4em;
   border-radius: 10px;
-  background-color: rgba(0, 0, 255, 0.143);
+  background-color: rgba(140, 178, 224, 0.814);
 }
 
 .controls :hover {
@@ -174,4 +174,18 @@ video {
 
 #right-arrow {
   right: 15px;
+}
+
+.dark-mode .cardS {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-mode .cardS .imgCard {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.dark-mode .btnSaibaMais {
+  color: #0c0c0c;
 }/*# sourceMappingURL=catalogo.css.map */
