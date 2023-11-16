@@ -1,165 +1,168 @@
 @import url(https://db.onlinewebfonts.com/c/9f0c36f4cce04c02c2a97b7ca054d58d?family=MoskauGrotesk-Medium);
-*{
-    margin: 0%;
-    box-sizing: border-box;
-   
+* {
+  margin: 0%;
+  box-sizing: border-box;
 }
-body{
-font-size: 14px;
+body {
+  font-size: 14px;
 }
-.batata{
-    width: 80%;
-    margin: 50px auto;
-    font-family: "MoskauGrotesk-Medium";
-
+.batata {
+  width: 80%;
+  margin: 50px auto;
+  font-family: "MoskauGrotesk-Medium";
 }
-.contact-box{
-background-color: #fff;
-display: flex;
+.contact-box {
+  background-color: #fff;
+  display: flex;
 }
-.contact-left{
-    flex-basis: 60%;
-    padding: 40px 60px;
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
 }
-.contact-right{
-    flex-basis: 60%;
-    padding: 40px 60px;
-    background-color: #aad0e8 ;
-    color: #fff;
-    
+.contact-right {
+  flex-basis: 60%;
+  padding: 40px 60px;
+  background-color: #aad0e8;
+  color: #fff;
 }
-h1{
-    margin-bottom: 10px;
-    margin-left: 5%;
+h1 {
+  margin-bottom: 10px;
+  margin-left: 5%;
 }
-.batata p{
-    margin-bottom: 40px;
-    margin-left: 5%;
+.batata p {
+  margin-bottom: 40px;
+  margin-left: 5%;
 }
-.input-row{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
-.input-row .input-group{
-    flex-basis: 45%;
+.input-row .input-group {
+  flex-basis: 45%;
 }
-input{
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    outline: none;
-    padding-bottom: 5px;
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
 }
-textarea{
-    width: 100%;
-    border: 1px solid #ccc;
-    outline: none;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: whitesmoke;
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
 }
-label{
-    margin-bottom: 6px;
-    display: block ;
+label {
+  margin-bottom: 6px;
+  display: block;
 }
-.batata button{
-    background: linear-gradient(45deg, LightSkyBlue, LightSteelBlue);
-    width: 100px;
-    border: none;
-    outline: none;
-    color: #fff;
-    height: 35px;
-    margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(28,0 ,181 ,0.3);
+.batata button {
+  background: linear-gradient(45deg, LightSkyBlue, LightSteelBlue);
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
-.batata button:hover{
-    letter-spacing: 2px;
-    opacity: 0.8;
+.batata button:hover {
+  letter-spacing: 2px;
+  opacity: 0.8;
 }
-.contact-left H3{
-    color:linear-gradient(45deg, LightSkyBlue, LightSteelBlue) ;
-    font-weight: 600;
-    margin-bottom: 30px;
-   
+.contact-left H3 {
+  color: linear-gradient(45deg, LightSkyBlue, LightSteelBlue);
+  font-weight: 600;
+  margin-bottom: 30px;
 }
-tr td:first-child{
-    padding-right: 20px ;
+tr td:first-child {
+  padding-right: 20px;
 }
-tr td{
-    padding-top: 10px;
-  display:flex
+tr td {
+  padding-top: 10px;
+  display: flex;
 }
-.contact-right table{
-    width: 100%;
+.contact-right table {
+  width: 100%;
 }
-.preto{
-    color: #000;
+.preto {
+  color: #000;
 }
-.dark-mode{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
 .dark-mode .nav-mobile {
-    background-color: #0c0c0c;
-    color: #fffbff;
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .navigation{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .navigation {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .navigation .nav-container{
-    background-color: #0c0c0c;
+.dark-mode .navigation .nav-container {
+  background-color: #0c0c0c;
 }
-.dark-mode .navigation .nav-container .brand{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .navigation .nav-container .brand {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .navigation .nav-container nav{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .navigation .nav-container nav {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .navigation .nav-container .nav-list{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .navigation .nav-container .nav-list {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .navigation .nav-container .nav-list li{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .navigation .nav-container .nav-list li {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .navigation .nav-container .nav-list li .nav-dropdown{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .navigation .nav-container .nav-list li .nav-dropdown {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .section .bg-footer{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .section .bg-footer {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .nav-list a{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .nav-list a {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .batata{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .batata {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode .contact-box{
-    background-color: #0c0c0c;
-    color: #fffbff;
+.dark-mode .contact-box {
+  background-color: #0c0c0c;
+  color: #fffbff;
 }
-.dark-mode input{
-    background-color: #0c0c0c;
-    color: #fffbff;
-} 
+.dark-mode input {
+  background-color: #0c0c0c;
+  color: #fffbff;
+}
 .dark-mode .contact-right h3,
-.dark-mode .contact-right .other
-{
-    color: #0c0c0c;
+.dark-mode .contact-right .other {
+  color: #0c0c0c;
 }
-.dark-mode .contact-right .preto{
-    color: #fffbff;
+.dark-mode .contact-right .preto {
+  color: #fffbff;
 }
-.dark-mode textarea{
-    background-color: #333;
-    color: #fffbff;
+.dark-mode textarea {
+  background-color: #333;
+  color: #fffbff;
+}
+@media (max-width: 1100px) {
+  .contact-right {
+    display: none;
+  }
+  .contact-left {
+    box-sizing: content-box;
+  }
 }
