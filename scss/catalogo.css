@@ -68,6 +68,7 @@ video {
 }
 
 .cardProd {
+  overflow: hidden;
   position: relative;
   margin-top: 50px;
   background-color: rgba(140, 178, 224, 0.814);
@@ -106,7 +107,7 @@ video {
 .btnSaibaMais {
   border: none;
   background-color: rgba(140, 178, 224, 0.814);
-  color: #fffbff;
+  color: #f2f2f2;
   border-radius: 5px;
   font-size: 15px;
   width: 100px;
@@ -138,4 +139,53 @@ video {
 
 .nome {
   margin-top: 10px;
+}
+
+.sizeArrows {
+  width: 120px;
+  height: 80px;
+}
+
+.btnSlider {
+  border: 0px transparent;
+  border-radius: 10px;
+  background-color: #333;
+  color: #f2f2f2;
+  font-size: 20px;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 1.4em;
+  border-radius: 10px;
+  background-color: rgba(140, 178, 224, 0.814);
+}
+
+.controls :hover {
+  opacity: 50%;
+}
+
+#left-arrow {
+  left: 15px;
+}
+
+#right-arrow {
+  right: 15px;
+}
+
+.dark-mode .cardS {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-mode .cardS .imgCard {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.dark-mode .btnSaibaMais {
+  color: #0c0c0c;
 }/*# sourceMappingURL=catalogo.css.map */

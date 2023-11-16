@@ -56,3 +56,17 @@ window.onload = function () {
     mascara(this, mtel);
   };
 };
+function pegaDados(){
+
+  const nome = document.getElementById ("nome").value;
+  const telefone = document.getElementById ("telefone").value; 
+  const email = document.getElementById ("email").value;
+  const cpf = document.getElementById ("cpf").value;
+  const mensagem = document.getElementById ("mensagem").value;
+
+  console.log("nome: " + nome);
+  console.log("telefone: " + telefone);
+  console.log("email: " + email);
+  console.log("cpf: " + cpf);
+  console.log("mensagem: " + mensagem);
+}
