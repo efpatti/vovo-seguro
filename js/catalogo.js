@@ -21,7 +21,9 @@ function nextCard() {
     <p class="textDesc">A simplicidade transforma.</p>
   </div>
   <div class="saibaMais">
-    <button class="btnSaibaMais">Veja Mais</button>
+  <a href="descricao.html"
+  ><button class="btnSaibaMais">Veja Mais</button></a
+>
   </div>
   `;
   cardS[1].innerHTML = `
@@ -35,7 +37,9 @@ function nextCard() {
   <p class="textDec">Fácil de aplicar e ajustável.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[2].innerHTML = `
@@ -49,7 +53,9 @@ function nextCard() {
   <p class="textDec">Resistência sem igual.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   btnsChange.innerHTML = `
@@ -73,7 +79,9 @@ function prevCard2() {
   <p class="textDec">Fácil de aplicar e ajustável.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[1].innerHTML = `
@@ -87,7 +95,9 @@ function prevCard2() {
   <p class="textDec">Resistência sem igual.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[2].innerHTML = `
@@ -101,7 +111,9 @@ function prevCard2() {
   <p class="textDec">A segurança importa.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   btnsChange.innerHTML = `
@@ -125,7 +137,9 @@ function nextCard2() {
     <p class="textDec">Incontáveis modelos.</p>
   </div>
   <div class="saibaMais">
-    <button class="btnSaibaMais">Veja Mais</button>
+  <a href="descricao.html"
+  ><button class="btnSaibaMais">Veja Mais</button></a
+>
   </div>
   `;
   cardS[1].innerHTML = `
@@ -139,7 +153,9 @@ function nextCard2() {
     <p class="textDesc">A simplicidade transforma.</p>
   </div>
   <div class="saibaMais">
-    <button class="btnSaibaMais">Veja Mais</button>
+  <a href="descricao.html"
+  ><button class="btnSaibaMais">Veja Mais</button></a
+>
   </div>
 </div>
   `;
@@ -154,7 +170,9 @@ function nextCard2() {
   <p class="textDec">Fácil de aplicar e ajustável.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   btnsChange.innerHTML = `
@@ -178,7 +196,9 @@ function prevCard3() {
     <p class="textDesc">A simplicidade transforma.</p>
   </div>
   <div class="saibaMais">
-    <button class="btnSaibaMais">Veja Mais</button>
+  <a href="descricao.html"
+  ><button class="btnSaibaMais">Veja Mais</button></a
+>
   </div>
 </div>
   `;
@@ -193,7 +213,9 @@ function prevCard3() {
   <p class="textDec">Fácil de aplicar e ajustável.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[2].innerHTML = `
@@ -207,7 +229,9 @@ function prevCard3() {
   <p class="textDec">Resistência sem igual.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   btnsChange.innerHTML = `
@@ -231,7 +255,9 @@ function nextCard3() {
   <p class="textDec">A segurança importa.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[1].innerHTML = `
@@ -245,7 +271,9 @@ function nextCard3() {
     <p class="textDec">Incontáveis modelos.</p>
   </div>
   <div class="saibaMais">
-    <button class="btnSaibaMais">Veja Mais</button>
+  <a href="descricao.html"
+  ><button class="btnSaibaMais">Veja Mais</button></a
+>
   </div>
   `;
   cardS[2].innerHTML = `
@@ -259,7 +287,9 @@ function nextCard3() {
     <p class="textDesc">A simplicidade transforma.</p>
   </div>
   <div class="saibaMais">
-    <button class="btnSaibaMais">Veja Mais</button>
+  <a href="descricao.html"
+  ><button class="btnSaibaMais">Veja Mais</button></a
+>
   </div>
   `;
   btnsChange.innerHTML = `
@@ -284,7 +314,9 @@ function nextCard4() {
   <p class="textDec">Resistência sem igual.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[1].innerHTML = `
@@ -298,7 +330,9 @@ function nextCard4() {
   <p class="textDec">A segurança importa.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[2].innerHTML = `
@@ -312,7 +346,9 @@ function nextCard4() {
     <p class="textDec">Incontáveis modelos.</p>
   </div>
   <div class="saibaMais">
-    <button class="btnSaibaMais">Veja Mais</button>
+  <a href="descricao.html"
+  ><button class="btnSaibaMais">Veja Mais</button></a
+>
   </div>
   `;
   btnsChange.innerHTML = `
@@ -337,7 +373,9 @@ function nextCard5() {
   <p class="textDec">Fácil de aplicar e ajustável.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[1].innerHTML = `
@@ -351,7 +389,9 @@ function nextCard5() {
   <p class="textDec">Resistência sem igual.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   cardS[2].innerHTML = `
@@ -365,7 +405,9 @@ function nextCard5() {
   <p class="textDec">A segurança importa.</p>
 </div>
 <div class="saibaMais">
-  <button class="btnSaibaMais">Veja Mais</button>
+<a href="descricao.html"
+><button class="btnSaibaMais">Veja Mais</button></a
+>
 </div>
   `;
   btnsChange.innerHTML = `
