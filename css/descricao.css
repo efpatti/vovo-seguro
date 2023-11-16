@@ -547,6 +547,15 @@ svg {
   .form {
     height: 100%;
   }
+  .paragrafo {
+    flex-direction: column;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+    max-height: 15rem;
+    padding-right: 5rem;
+    margin-top: 2rem;
+    font-size: medium;
+  }
 }
 @media (max-width: 300px) {
   .form {
