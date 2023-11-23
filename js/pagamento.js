@@ -35,14 +35,6 @@ document.querySelector(`.cvv-input`).oninput = () => {
     document.querySelector(`.cvv-input`).value;
 };
 
-function meuDark() {
-  let body = document.body;
-  body.classList.toggle("dark-mode");
-  let navbar = document.getElementById("navZada");
-  navbar.classList.toggle("dark-mode");
-  let rodape = document.getElementById("rod");
-  rodape.classList.toggle("dark-mode");
-}
 let buttonFunc = document.getElementById("botCont");
 
 buttonFunc.onclick = function (e) {
@@ -67,8 +59,6 @@ function limitMe(e) {
   }
   return this.value.length < $(this).attr("maxLength");
 }
-let fronC = document.querySelector(".fron");
-let backC = document.querySelector(".back");
 let fron = document.querySelector("#imgFront");
 let back = document.querySelector("#imgBack");
 function visa() {
@@ -169,3 +159,13 @@ $(document).ready(function () {
     botoeslado.css("opacity", "20%");
   });
 });
+
+function meuDark() {
+  let body = document.body;
+  body.classList.toggle("dark-mode");
+  let navbar = document.getElementById("navZada");
+  navbar.classList.toggle("dark-mode");
+  let rodape = document.getElementById("rod");
+  rodape.classList.toggle("dark-mode");
+  $(".visaing").css("opacity", "100%");
+}

@@ -274,7 +274,7 @@
 }
 
 .visaing {
-  opacity: 100%;
+  opacity: 20%;
   background-color: #fffbff;
   height: 140px;
   border-radius: 15px;
@@ -315,4 +315,16 @@
 }
 .mastercarding img {
   width: 130%;
+}
+.dark-mode .visaing {
+  background-color: #333;
+}
+.dark-mode .intering {
+  background-color: #333;
+}
+.dark-mode .nubanking {
+  background-color: #333;
+}
+.dark-mode .mastercarding {
+  background-color: #333;
 }

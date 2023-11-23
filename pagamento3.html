@@ -49,7 +49,7 @@
     </section>
     <div class="darkZao">
       <label class="switch">
-        <input type="checkbox" onclick="meuDark()" />
+        <input type="checkbox" onclick="meuDark()" class="botaoDARK" />
         <span class="slider round"></span>
       </label>
     </div>
@@ -63,9 +63,9 @@
     <div class="container batata">
       <div class="card-container">
         <div class="fron">
-          <div class="img">
+          <div class="img" id="imgFront">
             <img src="img/chip.png" alt="" />
-            <img src="img/visa.png" alt="" />
+            <img src="img/visa1.png" alt="" />
           </div>
           <div class="card-number-box">################</div>
           <div class="flexbox">
@@ -84,26 +84,32 @@
         </div>
         <div class="back">
           <div class="stripe"></div>
-          <div class="box">
+          <div class="box" id="imgBack">
             <span>cvv</span>
             <div class="cvv-box"></div>
-            <img src="img/visa.png" alt="" />
+            <img src="img/visa1.png" />
           </div>
         </div>
       </div>
       <div class="botoeslado">
         <div class="row">
-          <button class="visa"><img src="img/visa.png" alt="" /></button>
+          <button class="visaing" onclick="visa()">
+            <img src="img/visa.png" />
+          </button>
         </div>
         <div class="row">
-          <button class="inter"><img src="img/inter.png" alt="" /></button>
+          <button class="intering" onclick="inter()">
+            <img src="img/inter.png" />
+          </button>
         </div>
         <div class="row">
-          <button class="nubank"><img src="img/nubank.png" alt="" /></button>
+          <button class="nubanking" onclick="nubank()">
+            <img src="img/nubank.png" />
+          </button>
         </div>
         <div class="row">
-          <button class="mastercard">
-            <img src="img/mastercard.png" alt="" />
+          <button class="mastercarding" onclick="mastercard()">
+            <img src="img/mastercard.png" />
           </button>
         </div>
       </div>
@@ -161,9 +167,7 @@
         <input value="Concluir" class="submit-btn text-center" id="botCont" />
       </form>
     </div>
-
     <br /><br /><br /><br /><br />
-
     <footer class="section bg-footer" id="rod">
       <div class="container">
         <div class="row">
