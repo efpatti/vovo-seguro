@@ -1,9 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 body {
   overflow-x: hidden;
   overflow-y: visible;
-  font-family: "Poppins";
 }
 
 .navigation {
@@ -202,7 +200,7 @@ nav ul li ul li a {
 .footer-heading:after {
   content: "";
   width: 25px;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #fff;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -264,7 +262,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {

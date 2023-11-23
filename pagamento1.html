@@ -63,9 +63,9 @@
     <div class="container batata">
       <div class="card-container">
         <div class="fron">
-          <div class="img">
-            <img src="img/chip.png" alt="" />
-            <img src="img/visa.png" alt="" />
+          <div class="img" id="imgFront">
+            <img src="img/chip.png" />
+            <img src="img/visa1.png" />
           </div>
           <div class="card-number-box">################</div>
           <div class="flexbox">
@@ -84,14 +84,35 @@
         </div>
         <div class="back">
           <div class="stripe"></div>
-          <div class="box">
+          <div class="box" id="imgBack">
             <span>cvv</span>
             <div class="cvv-box"></div>
-            <img src="img/visa.png" alt="" />
+            <img src="img/visa.png" />
           </div>
         </div>
       </div>
-
+      <div class="botoeslado">
+        <div class="row">
+          <button class="visaing" onclick="visa()">
+            <img src="img/visa.png" />
+          </button>
+        </div>
+        <div class="row">
+          <button class="intering" onclick="inter()">
+            <img src="img/inter.png" />
+          </button>
+        </div>
+        <div class="row">
+          <button class="nubanking" onclick="nubank()">
+            <img src="img/nubank.png" />
+          </button>
+        </div>
+        <div class="row">
+          <button class="mastercarding" onclick="mastercard()">
+            <img src="img/mastercard.png" />
+          </button>
+        </div>
+      </div>
       <form action="">
         <p class="preco">R$ 99,90</p>
         <p class="juros">6x sem juros</p>
@@ -148,7 +169,6 @@
     </div>
 
     <br /><br /><br /><br /><br />
-
     <footer class="section bg-footer" id="rod">
       <div class="container">
         <div class="row">
@@ -200,8 +220,6 @@
         </p>
       </div>
     </footer>
-
-    <script src="js/template.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
@@ -213,44 +231,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/pagamento.js"></script>
-
-    <script>
-      document.querySelector(`.card-number-input`).oninput = () => {
-        document.querySelector(`.card-number-box`).innerHTML =
-          document.querySelector(`.card-number-input`).value;
-      };
-      document.querySelector(`.card-holder-input`).oninput = () => {
-        document.querySelector(`.card-holder-name`).innerHTML =
-          document.querySelector(`.card-holder-input`).value;
-      };
-      document.querySelector(`.month-input`).oninput = () => {
-        document.querySelector(`.exp-month`).innerHTML =
-          document.querySelector(`.month-input`).value;
-      };
-      document.querySelector(`.year-input`).oninput = () => {
-        document.querySelector(`.exp-year`).innerHTML =
-          document.querySelector(`.year-input`).value;
-      };
-      document.querySelector(`.cvv-input`).onmouseenter = () => {
-        document.querySelector(
-          `.fron`
-        ).style.transform = `perspective(1000px) rotateY(-180deg)`;
-        document.querySelector(
-          `.back`
-        ).style.transform = `perspective(1000px) rotateY(0deg)`;
-      };
-      document.querySelector(`.cvv-input`).onmouseleave = () => {
-        document.querySelector(
-          `.fron`
-        ).style.transform = `perspective(1000px) rotateY(0deg)`;
-        document.querySelector(
-          `.back`
-        ).style.transform = `perspective(1000px) rotateY(180deg)`;
-      };
-      document.querySelector(`.cvv-input`).oninput = () => {
-        document.querySelector(`.cvv-box`).innerHTML =
-          document.querySelector(`.cvv-input`).value;
-      };
-    </script>
+    <script src="js/template.js"></script>
   </body>
 </html>
