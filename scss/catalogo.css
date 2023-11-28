@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 .dark-mode {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .nav-mobile {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .navigation {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .navigation .nav-container {
@@ -19,38 +19,38 @@
 }
 
 .dark-mode .navigation .nav-container .brand {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: dark;
+  color: #fff;
 }
 
 .dark-mode .navigation .nav-container nav {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .navigation .nav-container .nav-list {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .navigation .nav-container .nav-list li {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .navigation .nav-container .nav-list li .nav-dropdown {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode #rod {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .nav-list a {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .videoVovo {
@@ -79,7 +79,7 @@ video {
 .cardS {
   border-radius: 5px;
   margin: 10px 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   height: 270px;
 }
 
@@ -165,8 +165,8 @@ video {
 }
 
 .dark-mode .cardS {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #0c0c0c;
+  color: #fff;
 }
 
 .dark-mode .cardS .imgCard {

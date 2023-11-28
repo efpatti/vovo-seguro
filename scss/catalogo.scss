@@ -1,47 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 $bs-gutter-x: 1.5rem;
+$bg-color: #fff;
+$whiteSec: #f2f2f2;
+$dark: #0c0c0c;
+$blackSec: #333;
+$blueCard: rgba(140, 178, 224, 0.814);
+$quinze: 15px;
 .dark-mode {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .nav-mobile {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .navigation {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .navigation .nav-container {
-  background-color: #0c0c0c;
+  background-color: $dark;
 }
 .dark-mode .navigation .nav-container .brand {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: dark;
+  color: $bg-color;
 }
 .dark-mode .navigation .nav-container nav {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .navigation .nav-container .nav-list {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .navigation .nav-container .nav-list li {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .navigation .nav-container .nav-list li .nav-dropdown {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode #rod {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .nav-list a {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .videoVovo {
   margin-top: 200px;
@@ -60,14 +66,14 @@ video {
   overflow: hidden;
   position: relative;
   margin-top: 50px;
-  background-color: rgba(140, 178, 224, 0.814);
+  background-color: $blueCard;
   height: 290px;
   border-radius: 20px;
 }
 .cardS {
   border-radius: 5px;
   margin: 10px 10px;
-  background-color: #ffffff;
+  background-color: $bg-color;
   height: 270px;
 }
 .textNome {
@@ -76,11 +82,11 @@ video {
 }
 .imgCard {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: $whiteSec;
 }
 .imgCard img {
   border-radius: 50px;
-  background-color: rgba(140, 178, 224, 0.814);
+  background-color: $blueCard;
   width: 100px;
   height: 100px;
 }
@@ -89,8 +95,8 @@ video {
 }
 .btnSaibaMais {
   border: none;
-  background-color: rgba(140, 178, 224, 0.814);
-  color: #f2f2f2;
+  background-color: $blueCard;
+  color: $whiteSec;
   border-radius: 5px;
   font-size: 15px;
   width: 100px;
@@ -125,7 +131,7 @@ video {
   border: none;
   font-size: 1.4em;
   border-radius: 10px;
-  background-color: rgba(140, 178, 224, 0.814);
+  background-color: $blueCard;
   cursor: pointer;
 }
 
@@ -134,22 +140,22 @@ video {
 }
 
 #left-arrow {
-  left: 15px;
+  left: $quinze;
 }
 
 #right-arrow {
-  right: 15px;
+  right: $quinze;
 }
 
 .dark-mode .cardS {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: $dark;
+  color: $bg-color;
 }
 
 .dark-mode .cardS .imgCard {
-  background-color: #333;
-  color: #f2f2f2;
+  background-color: $blackSec;
+  color: $whiteSec;
 }
 .dark-mode .btnSaibaMais {
-  color: #0c0c0c;
+  color: $dark;
 }
