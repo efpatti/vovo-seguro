@@ -1,37 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cabin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-.offset {
-  --color: #aad0e8;
-  --hover: #b3aae8;
-}
-
-.offset a {
-  font-family: "ADLaM Display", cursive;
-  text-transform: uppercase;
-}
-
-.offset {
-  color: #aad0e8;
-  transition: 0.25s;
-}
-.offset:hover, .offset:focus {
-  border-color: var(--hover);
-  color: #fff;
-}
-
-.offset {
-  background: none;
-  border: 2px solid;
-  font: inherit;
-  line-height: 1;
-  margin: 0px 260px;
-  padding: 1em 2em;
-  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
-}
-.offset:hover, .offset:focus {
-  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
-}
-
 .textoVovo {
   font-family: "ADLaM Display", cursive;
   font-size: 30px;
@@ -62,32 +30,32 @@ div.scroll-container img {
 
 .dark-mode {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .brasil {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .nav-mobile {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode body {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode footer {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .scroll-container {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .containerVovo {
@@ -95,15 +63,15 @@ div.scroll-container img {
 }
 
 .dark-mode .slide p {
-  color: aliceblue;
+  color: #fff;
 }
 
 .dark-mode .containerVovo .testimonial .testi-content .slide .details .name {
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .containerVovo .testimonial .testi-content .slide .details .job {
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode .containerVovo .testimonial .botaoVovo {
@@ -112,7 +80,7 @@ div.scroll-container img {
 }
 
 .dark-mode .containerVovo .testimonial .swiper-pagination-bullet {
-  background-color: #fffbff;
+  background-color: #fff;
 }
 
 .dark-mode .unicornio {
@@ -126,22 +94,27 @@ div.scroll-container img {
 
 .dark-mode .unicornio .row .col .btnUni {
   background-color: #0c0c0c;
-  border-color: #f2f2f2;
-  color: #f2f2f2;
+  border-color: #fff;
+  color: #fff;
 }
 
 .dark-mode .unicornio .row .col .btnUni:hover {
-  background-color: #f2f2f2;
+  background-color: #fff;
   color: #0c0c0c;
 }
 
 .dark-mode .container .row .col details {
   background-color: rgba(0, 255, 255, 0.269);
-  color: #fffbff;
+  color: #fff;
 }
 
 .dark-mode input {
-  color: #fffbff;
+  color: #fff;
+}
+
+.dark-mode .pato {
+  background-color: #0c0c0c;
+  color: #fff;
 }
 
 .containerVovo {
@@ -239,29 +212,6 @@ div.scroll-container img {
     padding: 0 100px;
   }
 }
-.pato2 {
-  background-color: #fffbff;
-  height: 0px;
-}
-
-.dia {
-  top: 0;
-}
-
-.noite {
-  top: 0;
-  display: none;
-}
-
-.ney {
-  display: flex;
-}
-
-.pardo {
-  margin: 0;
-  padding: 0;
-}
-
 .um {
   display: none;
 }
@@ -279,7 +229,7 @@ div.scroll-container img {
   --e-column-margin-right: 0px;
   --e-column-margin-left: 0px;
   border-radius: 10px;
-  color: #f2f2f2;
+  color: #fff;
   margin-top: 80px;
   margin-bottom: 0px;
 }
@@ -287,7 +237,7 @@ div.scroll-container img {
 .unicornio .row .col input {
   border-radius: 7px;
   border-color: #0c0c0c;
-  background-color: #f2f2f2;
+  background-color: #fff;
   --e-column-margin-right: 0px;
   --e-column-margin-left: 0px;
   padding: 10px;
@@ -314,7 +264,7 @@ div.scroll-container img {
   width: 190px;
   height: 50px;
   border-radius: 7px;
-  background-color: #f2f2f2;
+  background-color: #fff;
   color: #0c0c0c;
   font-weight: bold;
   border-color: #0c0c0c;
@@ -323,9 +273,8 @@ div.scroll-container img {
 
 .btnUni:hover {
   background-color: #0c0c0c;
-  color: #f2f2f2;
-  transition: all 2s;
-  transform: rotate(720deg);
+  color: #fff;
+  transition: all 1s;
 }
 
 .unicornioText {
@@ -394,7 +343,7 @@ summary .icon {
 
 .dark-mode nav ul li a {
   background-color: #0c0c0c;
-  color: #fffbff;
+  color: #fff;
 }
 
 .whoopApresenta video {

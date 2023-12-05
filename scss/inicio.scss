@@ -1,54 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cabin&display=swap");
-
-$colors: (
-  offset: #aad0e8,
-);
-@each $button, $color in $colors {
-  .#{$button} {
-    --color: #{$color};
-    --hover: #{adjust-hue($color, 45deg)};
-  }
-}
-.offset a {
-  font-family: "ADLaM Display", cursive;
-  text-transform: uppercase;
-}
-.offset {
-  color: #aad0e8;
-  transition: 0.25s;
-  &:hover,
-  &:focus {
-    border-color: var(--hover);
-    color: #fff;
-  }
-}
-.offset {
-  background: none;
-  border: 2px solid;
-  font: inherit;
-  line-height: 1;
-  margin: 0px 260px;
-  padding: 1em 2em;
-  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
-
-  &:hover,
-  &:focus {
-    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
-  }
-}
+$bg-color: #fff;
+$dark: #0c0c0c;
+$porCento: 100%;
+$porCento2: 50%;
+$porX: 100px;
+$slidePx: 0 -100px;
+$flex: flex;
+$cenTer: center;
 .textoVovo {
   font-family: "ADLaM Display", cursive;
   font-size: 30px;
 }
 .pato {
-  background-color: #fff;
+  background-color: $bg-color;
 }
 .imgQuick {
-  width: 90px;
-  height: 90px;
+  width: $porX;
+  height: $porX;
 }
 div.scroll-container {
-  background-color: #fff;
+  background-color: $bg-color;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
@@ -61,83 +32,87 @@ div.scroll-container img {
   width: 300px;
 }
 .dark-mode {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .brasil {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .nav-mobile {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode body {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode footer {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .scroll-container {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .dark-mode .containerVovo {
-  background-color: #0c0c0c;
+  background-color: $dark;
 }
 .dark-mode .slide p {
-  color: aliceblue;
+  color: $bg-color;
 }
 .dark-mode .containerVovo .testimonial .testi-content .slide .details .name {
-  color: #fffbff;
+  color: $bg-color;
 }
 .dark-mode .containerVovo .testimonial .testi-content .slide .details .job {
-  color: #fffbff;
+  color: $bg-color;
 }
 .dark-mode .containerVovo .testimonial .botaoVovo {
-  color: #0c0c0c;
+  color: $dark;
   background-color: #fffbff62;
 }
 .dark-mode .containerVovo .testimonial .swiper-pagination-bullet {
-  background-color: #fffbff;
+  background-color: $bg-color;
 }
 .dark-mode .unicornio {
-  color: #0c0c0c;
+  color: $dark;
   background-image: linear-gradient(25deg, #e9edf0, #b7caca, #ffffff, #d9fff2);
 }
 .dark-mode .unicornio .row .col input {
-  background-color: #0c0c0c;
+  background-color: $dark;
 }
 .dark-mode .unicornio .row .col .btnUni {
-  background-color: #0c0c0c;
-  border-color: #f2f2f2;
-  color: #f2f2f2;
+  background-color: $dark;
+  border-color: $bg-color;
+  color: $bg-color;
 }
 .dark-mode .unicornio .row .col .btnUni:hover {
-  background-color: #f2f2f2;
-  color: #0c0c0c;
+  background-color: $bg-color;
+  color: $dark;
 }
 .dark-mode .container .row .col details {
   background-color: rgba(0, 255, 255, 0.269);
-  color: #fffbff;
+  color: $bg-color;
 }
 .dark-mode input {
-  color: #fffbff;
+  color: $bg-color;
+}
+.dark-mode .pato {
+  background-color: $dark;
+  color: $bg-color;
 }
 .containerVovo {
   height: 70vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
+  width: $cemPorCento;
+  display: $flex;
+  align-items: $cenTer;
+  justify-content: $cenTer;
+  background-color: $bg-color;
 }
 .testimonial {
   position: relative;
   max-width: 900px;
-  width: 100%;
+  width: $cemPorCento;
   padding: 50px 0;
   overflow: hidden;
 }
@@ -145,16 +120,16 @@ div.scroll-container img {
   height: 170px;
   width: 170px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: $porCento2;
 }
 .testimonial .slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: $flex;
+  align-items: $cenTer;
+  justify-content: $cenTer;
   flex-direction: column;
 }
 .slide p {
-  text-align: center;
+  text-align: $cenTer;
   padding: 0 120px;
   font-size: 14px;
   font-weight: 400;
@@ -165,9 +140,9 @@ div.scroll-container img {
   color: #4070f4;
 }
 .slide .details {
-  display: flex;
+  display: $flex;
   flex-direction: column;
-  align-items: center;
+  align-items: $center;
 }
 .details .name {
   font-size: 14px;
@@ -182,7 +157,7 @@ div.scroll-container img {
 .botaoVovo {
   height: 40px;
   width: 40px;
-  border-radius: 50%;
+  border-radius: $porCento2;
   transform: translateY(30px);
   background-color: rgba(0, 0, 0, 0.1);
   transition: 0.3s;
@@ -193,7 +168,7 @@ div.scroll-container img {
 .botaoVovo::after,
 .botaoVovo::before {
   font-size: 20px;
-  color: #fff;
+  color: $bg-color;
 }
 .swiper-pagination-bullet {
   background-color: rgba(0, 0, 0, 0.8);
@@ -203,32 +178,14 @@ div.scroll-container img {
 }
 @media screen and (max-height: 768px) {
   .slide p {
-    padding: 0 100px;
+    padding: slidePx;
   }
-}
-.pato2 {
-  background-color: #fffbff;
-  height: 0px;
-}
-.dia {
-  top: 0;
-}
-.noite {
-  top: 0;
-  display: none;
-}
-.ney {
-  display: flex;
-}
-.pardo {
-  margin: 0;
-  padding: 0;
 }
 .um {
   display: none;
 }
 .dois {
-  display: flex;
+  display: $flex;
 }
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 .unicornio {
@@ -240,14 +197,14 @@ div.scroll-container img {
   --e-column-margin-right: 0px;
   --e-column-margin-left: 0px;
   border-radius: 10px;
-  color: #f2f2f2;
+  color: $bg-color;
   margin-top: 80px;
   margin-bottom: 0px;
 }
 .unicornio .row .col input {
   border-radius: 7px;
-  border-color: #0c0c0c;
-  background-color: #f2f2f2;
+  border-color: $dark;
+  background-color: $bg-color;
   --e-column-margin-right: 0px;
   --e-column-margin-left: 0px;
   padding: 10px;
@@ -266,22 +223,21 @@ div.scroll-container img {
   width: 190px;
   height: 50px;
   border-radius: 7px;
-  background-color: #f2f2f2;
-  color: #0c0c0c;
+  background-color: $bg-color;
+  color: $dark;
   font-weight: bold;
-  border-color: #0c0c0c;
+  border-color: $dark;
   padding: 10px 10px 10px 10px;
 }
 .btnUni:hover {
-  background-color: #0c0c0c;
-  color: #f2f2f2;
-  transition: all 2s;
-  transform: rotate(720deg);
+  background-color: $dark;
+  color: $bg-color;
+  transition: all 1s;
 }
 .unicornioText {
   font-family: "Questrial", sans-serif;
   font-weight: 600;
-  font-stretch: 100%;
+  font-stretch: $cemPorCento;
   font-size: 17px;
   text-decoration: none solid rgb(255, 255, 255);
   text-indent: 0px;
@@ -295,7 +251,7 @@ div.scroll-container img {
 .sum {
   display: grid;
   grid-template-columns: 1fr auto;
-  align-items: center;
+  align-items: $center;
   cursor: pointer;
   list-style-type: none;
 }
@@ -334,17 +290,17 @@ summary .icon {
   margin-bottom: 0px;
 }
 .dark-mode nav ul li a {
-  background-color: #0c0c0c;
-  color: #fffbff;
+  background-color: $dark;
+  color: $bg-color;
 }
 .whoopApresenta video {
   margin-top: 20px;
-  width: 100%;
+  width: $cemPorCento;
   height: 500px;
 }
 @media (max-width: 1180px) {
   .whoopApresenta video {
-    margin-top: -100px;
+    margin-top: $slidePx;
   }
   .unicornio {
     padding: 8px;

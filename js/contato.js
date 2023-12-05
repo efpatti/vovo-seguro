@@ -1,11 +1,3 @@
-function meuDark() {
-  let body = document.body;
-  body.classList.toggle("dark-mode");
-  let navbar = document.getElementById("navZada");
-  navbar.classList.toggle("dark-mode");
-  let rodape = document.getElementById("rod");
-  rodape.classList.toggle("dark-mode");
-}
 const input_cpf = document.getElementById("cpf");
 
 input_cpf.addEventListener("focus", function (event) {
@@ -56,13 +48,12 @@ window.onload = function () {
     mascara(this, mtel);
   };
 };
-function pegaDados(){
-
-  const nome = document.getElementById ("nome").value;
-  const telefone = document.getElementById ("telefone").value; 
-  const email = document.getElementById ("email").value;
-  const cpf = document.getElementById ("cpf").value;
-  const mensagem = document.getElementById ("mensagem").value;
+function pegaDados() {
+  const nome = document.getElementById("nome").value;
+  const telefone = document.getElementById("telefone").value;
+  const email = document.getElementById("email").value;
+  const cpf = document.getElementById("cpf").value;
+  const mensagem = document.getElementById("mensagem").value;
 
   console.log("nome: " + nome);
   console.log("telefone: " + telefone);

@@ -15,14 +15,6 @@ options.forEach((option) => {
     optionMenu.classList.remove("active");
   });
 });
-function meuDark() {
-  let body = document.body;
-  body.classList.toggle("dark-mode");
-  let navbar = document.getElementById("navZada");
-  navbar.classList.toggle("dark-mode");
-  let rodape = document.getElementById("rod");
-  rodape.classList.toggle("dark-mode");
-}
 function url1() {
   const linhanova = document.querySelector(".textao");
   linhanova.innerHTML = `
